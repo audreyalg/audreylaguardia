@@ -1,0 +1,243 @@
+body {
+  background-image: url('images/gingham.jpg');
+  background-repeat: repeat;
+}
+.container {
+  background-color: #fdf6ec;
+  padding: 3% 5%;
+  border-radius: 25px;
+  border-style: solid;
+  border-width: 2px;
+  border-color: #fddade;
+}
+
+h1 {
+  font-family: 'Alumni Sans Pinstripe';
+  font-size: 4rem;
+  font-weight: bold;
+  color: #51a751;
+}
+
+h2 {
+  font-family: 'Alumni Sans Pinstripe';
+  font-size: 2.5rem;
+  font-weight: bold;
+  color: #b15f5f;
+  padding-top: 5px;
+}
+
+h3 {
+  font-family: 'Alumni Sans Pinstripe';
+  font-weight: bold;
+  color: #d89191;
+  padding-top: 2px;
+}
+p {
+  font-family: 'Alumni Sans Pinstripe';
+  font-weight: bold;
+  padding: 5px;
+  font-size: 1.5rem;
+  color: #d89191;
+}
+
+/* navbar */
+.navbar {
+  background-color: #356e35;
+  overflow: hidden;
+  position: sticky;
+  top: 0;
+  z-index: 99;
+}
+
+.navbar-light .navbar-brand {
+  font-family: 'Poiret One';
+  font-size: 2.3rem;
+  margin-left:50px;
+  color: #fddade;
+}
+.navbar-light .navbar-brand:hover {
+  color: #fdf6ec;
+}
+
+.navbar-nav {
+  margin-right: 30px;
+}
+.navbar-nav .nav-item .nav-link {
+  font-family: 'Poiret One';
+  font-size: 1.3rem;
+  color: #fddade;
+  margin-right: 20px;
+}
+.navbar-nav .nav-item .nav-link:hover {
+  color: #fdf6ec;
+}
+
+.navbar-light .navbar-toggler-icon {
+  background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' width='30' height='30' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%28253, 218, 222, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+}
+
+/* intro */
+.introCon {
+  margin-top: 90px;
+}
+
+.introImg {
+  float: right;
+  height: 300px;
+  padding-bottom: 20px;
+}
+
+.resBtn {
+  font-family: 'Poiret One';
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  padding: 4%;
+  background-color: #51a751;
+  color: #fdf6ec;
+}
+
+.resBtn:hover {
+  background-color: #ffa3a3;
+  color: #6e3535;
+}
+
+.conBtn {
+  font-family: 'Poiret One';
+  font-size: 1.3rem;
+  font-weight: bold;
+  line-height: 1.2rem;
+  padding: 4%;
+  margin-left: 15px;
+  color: #6e3535;
+  outline-width: 1px;
+}
+
+.conBtn:hover {
+  background-color: #9b5b5b;
+  color: #fdf6ec;
+}
+
+/* work section */
+.work {
+  padding: 100px;
+}
+
+.projLink{
+  color: #b15f5f;
+  text-decoration: underline;
+}
+.projLink:hover {
+  color: #356e35;
+}
+
+/* carousel */
+
+#proj-carousel {
+  text-align: center;
+  padding: 3%;
+}
+
+.figma {
+    border-radius: 10px;
+    margin: 10px;
+    height: 500px;
+}
+
+.carousel-control-next-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2351a751' viewBox='0 0 8 8'%3E%3Cpath d='M2.75 0l-1.5 1.5 2.5 2.5-2.5 2.5 1.5 1.5 4-4-4-4z'/%3E%3C/svg%3E");
+}
+
+.carousel-control-prev-icon {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' fill='%2351a751' viewBox='0 0 8 8'%3E%3Cpath d='M5.25 0l-4 4 4 4 1.5-1.5-2.5-2.5 2.5-2.5-1.5-1.5z'/%3E%3C/svg%3E");
+}
+
+/* about */
+.abtCon {
+  margin-top: 90px;
+  margin-bottom: 90px;
+}
+
+.abtImg {
+  float: inline-end;
+  height: 350px;
+  padding-bottom: 20px;
+  margin-right: 100px;
+}
+
+
+/* top button */
+#topBtn {
+  position: fixed;
+  bottom: 30px;
+  right: 50px;
+  z-index: 99;
+  border: none;
+  outline: none;
+  background-color: #51a751;
+  color: #fdf6ec;
+  padding: 15px; /* Some padding */
+  border-radius: 50%;
+}
+
+#topBtn:hover {
+  background-color: #2b5c2b; /* Add a dark-grey background on hover */
+}
+
+/* footer */
+#footer {
+  background-color: #fdf6ec;
+  padding: 3% 0 7% 3%;
+  text-align: center;
+  height: 200px;
+}
+
+.social-icon {
+  margin: 20px 10px;
+  color: #d89191;
+}
+/* media query */
+@media (max-width: 1028px) {
+
+  .container {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    border-radius: 0px;
+  }
+  /* navbar */
+  .navbar-light .navbar-brand {
+    font-size: 1.3rem;
+    margin-left: 10px;
+    color: #fddade;
+  }
+  .introImg {
+      float:inline-start;
+      padding: 20px 50px;
+  }
+  /* work */
+  .work {
+    padding: 0;
+  }
+  .figmaImg {
+      margin: 0 auto;
+      text-align: center;
+  }
+
+  /* about */
+  .abtImg {
+      float:inline-start;
+      padding: 20px 50px;
+  }
+
+  /* top button */
+  #topBtn {
+    bottom: 20px;
+    right: 30px;
+  }
+
+  /* footer */
+  #footer {
+    height: 125px;
+    padding: 3%;
+  }
+}
