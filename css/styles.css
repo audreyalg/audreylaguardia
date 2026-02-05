@@ -137,7 +137,10 @@ p {
   text-align: center;
   padding: 3%;
 }
-
+#proj-carousel1 {
+  text-align: center;
+  padding: 3%;
+}
 .carouselImg {
     border-radius: 10px;
     margin: 10px;
@@ -241,3 +244,4 @@ p {
     padding: 3%;
   }
 }
+
