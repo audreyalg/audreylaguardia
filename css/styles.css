@@ -133,12 +133,12 @@ p {
 
 /* carousel */
 
-#proj-carousel {
+#proj-carousel, #proj-carousel1 {
   text-align: center;
   padding: 3%;
 }
 
-.figma {
+.carouselImg {
     border-radius: 10px;
     margin: 10px;
     height: 500px;
